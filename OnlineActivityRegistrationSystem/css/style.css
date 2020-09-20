@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00adb7;
+}
+
+.headingfont {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+footer {
+  background-color: #00adb7;
+}
+
+.navbar-nav li.active>a {
+  background-color: #e1e1e1;
+}
+
+.mr-auto a.nav-link:hover {
+  background-color: #eeeeee;
+}
+
+nav.navbar {
+  padding: 0;
+}
+
+table.table-bordered>thead>tr {
+  border: 1px solid grey;
+  background-color: white;
+}
+
+table.table-bordered>tbody>tr {
+  border: 1px solid grey;
+  background-color: white;
+}
+
+/* Styled buttons for new application */
+#appbtn {
+  background-color: #00adb7;
+  /* Blue background */
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+#appbtn1 {
+  background-color: #c41c33;
+  /* Blue background */
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+#yes {
+  background-color: #00adb7;
+  border: none;
+  color: white;
+}
+
+#no {
+  border-style: solid;
+  border-color: #00adb7;
+}
+
+#yesno {
+  margin-top: 250px;
+}
+
+#acancel {
+  background-color: #eee;
+  color: black;
+}
+
+#acancel:hover {
+  background-color: #0275d8;
+
+  color: white;
+}
+
+a.no:hover {
+  background-color: #00adb7;
+  color: white;
+}
+
+/* Darker background on mouse-over */
+#appbtn:hover {
+  background-color: RoyalBlue;
+}
+
+/*no background button*/
+button.clear {
+  background-color: transparent;
+  border: none;
+  color: blue;
+}
+
+#application_details {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+#report_sum{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/*pop out message */
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 1.5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06d85f;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+
+  .popup {
+    width: 70%;
+  }
+}
+
+.spaceP {
+  line-height: 800%;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(82, 8, 255, 0.4),
+      rgba(34, 247, 229, 0.4)),
+    url(../imgs/RegisterLogin.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.uigradients {
+  background: #feac5e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #4bc0c8,
+      #c779d0,
+      #feac5e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #4bc0c8,
+      #c779d0,
+      #feac5e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-box {
+  width: 380px;
+  height: 100%;
+  position: relative;
+  background-color: #fdfefe;
+  overflow: hidden;
+}
+
+.btn-box {
+  width: 230px;
+  margin: 35px auto 0 auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #1892f5;
+  border-radius: 30px;
+}
+
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 115px;
+  height: 100%;
+  background: linear-gradient(to right, #3808e4, #45d0e9);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.input-grp label {
+  margin: 0 0;
+}
+
+.input-grp {
+  top: 100px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0 0 0px 0;
+  margin: 0 0 15px 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  border-left: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #3808e4, #45d0e9);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.checkbox {
+  margin: 10px 0px 20px 0;
+}
+
+.checkbox-text {
+  color: #777;
+  font-size: 12px;
+}
+
+#login {
+  left: 450px;
+}
+
+#register {
+  left: 50px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+  left: -35px;
+  content: "\f00c";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+  left: -35px;
+  content: "\f00d";
+}
+
+#register-eye {
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  top: 23px;
+}
+
+#login-eye {
+  cursor: pointer;
+  position: relative;
+  left: 120px;
+  top: 23px;
+}
+
+.slashed {
+  color: #999;
+}
+
+.slashed:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f070';
+}
+
+.unslashed {
+  color: #333;
+}
+
+.unslashed:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f06e';
+}

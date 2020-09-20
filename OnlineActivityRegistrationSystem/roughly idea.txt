@@ -1,0 +1,25 @@
+Online Activity Registration System for Residential College
+target user : student
+view activity :user click activity, see list of activity organized
+i. name of activity (provide button etc)
+ii. click the activity, see the details of activity (provide a join or register button)
+iii. already register (can trace the activity) / (can drop the activities before the activities day)
+*add a table to store records in the database, because no admin page (can retrieve information from database)
+
+report (issue): something similar to um helpdesk
+a list of button for (add,view,delete,update...)
+i. add new issue 
+ii. see list of issue (provide link or button)
+iii. allow updating or deleting (cancel the reporting)
+iv. update : editable form allow for confirm update or cancel update
+v. delete : prompt user for the confirmation of deleting
+vi. submit issue (type of issue, actual location, description) using form, label
+vii. a page to view status (pending....)
+
+view food menu :
+click menu (retrive information from database)
+i. view menu (select,add,delete order -specify how early it can for deleting order...)
+
+apply accommodation :
+view request (status - approve,pending,reject)
+
